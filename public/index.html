@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Monitoring and Reporting</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+    <div class="jumbotron text-center">
+      <h1>Cloud Foundry</h1>
+      <p>Monitoring and Reporting</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+            <br>
+            <div id="chartContainer_memory" style="height: 325px; width: 100%;"></div>
+        </div>
+        <div class="col-md-4">
+          <br>
+            <div id="chartContainer_cpu" style="height: 325px; width: 100%;"></div>
+        </div>
+        <div class="col-md-4">
+          <br>
+          <div id="chartContainer_diskspace" style="height: 325px; width: 100%;"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+
+    <!-- <div id="mario-chat">
+      <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </div>
+
+      <input id="handle" type="text" placeholder="Handle">
+      <input id="message" type="text" placeholder="Message">
+      <button id="send">Send</button>
+    </div> -->
+
+    <script src="/chat.js"></script>
+  </body>
+</html>
